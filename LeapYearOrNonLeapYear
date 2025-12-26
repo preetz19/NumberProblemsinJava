@@ -1,0 +1,21 @@
+package org.test;
+import java.util.*;
+public class Number {
+public static void main(String args[])
+{
+	Scanner sc=new Scanner(System.in);
+	int r=sc.nextInt();
+	if(r%400==0)
+	{
+		System.out.println("It is a Leap Year");
+	}
+	else if( r%4 ==0 && r%100 !=0)
+	{
+		System.out.println("It is a leap Year");
+	}
+	else
+	{
+		System.out.println("Not a leap Year");
+	}
+}
+}
